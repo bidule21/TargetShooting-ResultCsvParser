@@ -44,7 +44,7 @@ public class CategoryAnalyzer {
 
 	public String getCategoryIdentifier() {
 		final Matcher IDENTIFIER_PATTERN = Pattern
-				.compile("([A-Z0-9]{2,3}) .*").matcher(category);
+				.compile("([A-Z0-9]{2,4}) .*").matcher(category);
 
 		if (!IDENTIFIER_PATTERN.matches()) {
 			throw new IllegalArgumentException("Category " + category
