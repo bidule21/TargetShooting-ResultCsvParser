@@ -73,7 +73,7 @@ Result are depending on each other. Here's an example:
 
 An air rifle competition for women consists of 40 shots. Those 40 shots are grouped in four ten-shot results. And each of this ten-shot result consists of ten single shots.
 
-The result parser may handle all levels of detail
+The result parser may handle all levels of detail.
 
 **No details, only the final score**
 
