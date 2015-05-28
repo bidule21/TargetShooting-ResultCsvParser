@@ -5,8 +5,6 @@ import java.util.Collection;
 import com.google.gson.Gson;
 
 public class Main {
-	static final String SHOOTER_DUMMY = "JONAS HANSEN";
-
 	public static void main(String[] args) throws Exception {
 		if (args.length < 2) {
 			throw new IllegalArgumentException(
